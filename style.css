@@ -1,0 +1,300 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #000000;
+}
+
+.cityName {
+  color: #6c6c6c; 
+  background-color: #161616;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:350px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: left; 
+  text-decoration: none;
+}
+
+.title {
+  color: #6c6c6c; 
+  background-color: #161616;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:400px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: left; 
+  text-decoration: none;
+}
+
+.weatherWA {
+  color: #bbdc94; 
+  background-color: #54ae32;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:135px;
+  left:410px;
+  text-decoration: none;
+}
+
+.weatherNY {
+  color: #bbdc94; 
+  background-color: #54ae32;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:262px;
+  left:410px;
+  text-decoration: none;
+}
+
+.weatherFL {
+  color: #bbdc94; 
+  background-color: #54ae32;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:391px;
+  left:410px;
+  text-decoration: none;
+}
+
+.weatherTX {
+  color: #bbdc94; 
+  background-color: #54ae32;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:518px;
+  left:410px;
+  text-decoration: none;
+}
+
+.weatherCA {
+  color: #bbdc94; 
+  background-color: #54ae32;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:645px;
+  left:410px;
+  text-decoration: none;
+}
+
+.iconWA {
+  background-color: #2254cd;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:135px;
+  left:563px;
+  text-decoration: none;
+}
+
+.iconNY {
+  background-color: #2254cd;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:262px;
+  left:563px;
+  text-decoration: none;
+}
+
+.iconFL {
+  background-color: #2254cd;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:391px;
+  left:563px;
+  text-decoration: none;
+}
+
+.iconTX {
+  background-color: #2254cd;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:518px;
+  left:563px;
+  text-decoration: none;
+}
+
+.iconCA {
+  background-color: #2254cd;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:100px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:645px;
+  left:563px;
+  text-decoration: none;
+}
+
+.timeWA {
+  color: #6c6c6c; 
+  background-color: #161616;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:135px;
+  left:715px;
+  text-decoration: none;
+}
+
+.timeNY {
+  color: #6c6c6c; 
+  background-color: #161616;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:262px;
+  left:715px;
+  text-decoration: none;
+}
+
+.timeFL {
+  color: #6c6c6c; 
+  background-color: #161616;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:391px;
+  left:715px;
+  text-decoration: none;
+}
+
+.timeTX {
+  color: #6c6c6c; 
+  background-color: #161616;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:518px;
+  left:715px;
+  text-decoration: none;
+}
+
+.timeCA {
+  color: #6c6c6c; 
+  background-color: #161616;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  width:200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  text-align: center; 
+  position: absolute;
+  top:645px;
+  left:715px;
+  text-decoration: none;
+}
